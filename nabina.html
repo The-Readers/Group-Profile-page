@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 20px;
+    }
+    img {
+            border-radius: 50%;
+            filter: grayscale(80%);
+            width: 150px;
+            height: 150px;
+            border: 5px solid #f5f6f7;
+            margin-right: 20px; }
+
+    h1, h2 {
+        color: darkblue;
+        margin-bottom: 10px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    table, th, td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .iframe-container {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    }
+
+    .iframe-container {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    }
+
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    footer{
+        background-color:#597445;
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px
+    }
+</style>
+</head>
+<body>
+    <div>
+<center><h1>Profile Page</h1></center>
+</div>
+
+<img src="img/Sita.jpeg" alt="Picture of Sita Karki">
+<h2>Biography</h2>
+<p>Welcome! to my profile. Hi I am Sita Karki. I am from Jhapa, Nepal. Currently I am a student of KCGI studying Master in IT Tourism.</p>
+
+<h2>Hobbies</h2>
+<ul>
+    <li>Watching Movies</li>
+    <li>Photography</li>
+    <li>Gardening</li>
+</ul>
+
+<h2>Education Qualification</h2>
+<table>
+    <tr>
+        <th>Degree</th>
+        <th>Institution</th>
+        <th>Year</th>
+    </tr>
+    <tr>
+        <td>S.L.C</td>
+        <td>New Daffodiles Academy School</td>
+        <td>2015</td>
+    </tr>
+    <tr>
+        <td>+2</td>
+        <td>Emerald Academy High School </td>
+        <td>2015-2017</td>
+    </tr>
+    <tr>
+        <td>Bachelor</td>
+        <td>Emerald Academy College </td>
+        <td>2017 - 2021</td>
+    </tr>
+    <tr>
+        <td>Master</td>
+        <td>The Kyoto College of Graduate Studies For Informatics </td>
+        <td>2024 - 2026</td>
+    </tr>
+      
+</table>
+
+<h2>Work Experiences</h2>
+<table>
+    <tr>
+        <th>Job Title</th>
+        <th>Company</th>
+        <th>Duration</th>
+    </tr>
+    <tr>
+        <td>Teacher</td>
+        <td>Future Care Montessori</td>
+        <td>2021-2022</td>
+    </tr>
+</table>
+
+
+<h2>Address</h2>
+<address>Corpo Takumi 202,<br> 20 koyamahigashi motomachi, <br>Kita-ku,<br> Kyoto City<br>
+   
+    Japan
+</address>
+
+<h2>Google Maps</h2>
+<div class="iframe-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.281450661175!2d135.75732693155538!3d35.04970181825496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108021c840001%3A0x5a99030575f610a!2z44Kz44O844Od44K_44Kv44Of!5e0!3m2!1sen!2sjp!4v1719162297394!5m2!1sen!2sjp" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+<h2>YouTube Video</h2>
+<div class="iframe-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SucnFiEKJjM?si=4JG-mT43oyrwAU8P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<h2>Local Media Files</h2>
+<!-- <h3>Video</h3>
+<video width="320" height="240" controls>
+    <source src="video/sample.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+ -->
+<h3>Audio</h3>
+<audio controls muted>
+    <source src="audio/Nepali.m4a" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
+<footer>
+  <div class="footer">
+        <p>Copyright &copy; 2024 Sita Karki. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
